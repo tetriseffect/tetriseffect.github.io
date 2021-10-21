@@ -324,7 +324,7 @@ p {
   transform: translate3d(0, 0, 0);
   /* Set your background with this */
 
-  background: #348cb2 url("images/desert.jpg") bottom left;
+  background: #348cb2 url("images/bg.jpg") bottom left;
   background-repeat: repeat-x;
   height: 100%;
   left: 0;
@@ -403,7 +403,7 @@ p {
 }
 
 /* Overlay */
-
+/* 
 @-moz-keyframes overlay {
   0% {
     opacity: 0;
@@ -460,7 +460,7 @@ p {
   position: fixed;
   top: 0;
   width: 100%;
-}
+} */
 
 /* Main */
 
