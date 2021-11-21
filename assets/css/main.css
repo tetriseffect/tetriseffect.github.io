@@ -253,6 +253,10 @@ p {
   font-family: "Font Awesome 5 Brands";
 }
 
+#pfp {
+  border-radius: 25px;
+}
+
 /* Wrapper */
 
 @-moz-keyframes wrapper {
