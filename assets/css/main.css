@@ -845,6 +845,10 @@ p {
   width: 100%;
 }
 
+a {
+  font-style: italic;
+}
+
 /* Wide */
 
 @media screen and (max-width: 1680px) {
