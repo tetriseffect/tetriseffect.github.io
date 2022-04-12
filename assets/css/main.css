@@ -327,7 +327,7 @@ p {
   transform: translate3d(0, 0, 0);
   /* Set your background with this */
 
-  background: #348cb2 url("images/bg.jpg") bottom left;
+  background: #348cb2 url("images/fabric.jpg") bottom left;
   background-repeat: repeat-x;
   height: 100%;
   left: 0;
@@ -854,6 +854,11 @@ a {
 @media screen and (max-width: 1680px) {
   /* Basic */
 
+  #profile {
+    width: 356px;
+    height: 356px;
+  }
+
   body,
   input,
   select,
@@ -938,6 +943,11 @@ a {
 @media screen and (max-width: 1280px) {
   /* Basic */
 
+  #profile {
+    width: 256px;
+    height: 256px;
+  }
+
   body,
   input,
   select,
@@ -1021,6 +1031,11 @@ a {
 
 @media screen and (max-width: 736px) {
   /* Basic */
+
+  #profile {
+    width: 256px;
+    height: 256px;
+  }
 
   body {
     min-width: 320px;
@@ -1132,6 +1147,11 @@ a {
 @media screen and (max-width: 480px) {
   /* BG */
 
+  #profile {
+    width: 356px;
+    height: 356px;
+  }
+
   @-moz-keyframes bg {
     0% {
       -moz-transform: translate3d(0, 0, 0);
@@ -1206,35 +1226,40 @@ a {
   #header nav {
     padding: 0 1em;
   }
+
+  #profile {
+    width: 156px;
+    height: 156px;
+  }
 }
 
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 1000px) {
+  #profile {
+    width: 156px;
+    height: 156px;
+  }
+} */
+
+/* @media screen and (max-width: 767px) {
   #profile {
     width: 256px;
     height: 256px;
   }
-}
+} */
 
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 1024px) {
   #profile {
     width: 256px;
     height: 256px;
   }
-}
+} */
 
-@media screen and (max-width: 1024px) {
-  #profile {
-    width: 256px;
-    height: 256px;
-  }
-}
-
-@media screen and (max-width: 12800px) {
+/* @media screen and (max-width: 3000px) {
   #profile {
     width: 356px;
     height: 356px;
   }
-}
+} */
 
 #profile {
   border-radius: 5%;
