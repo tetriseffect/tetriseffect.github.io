@@ -255,10 +255,6 @@ p {
 
 /* Personal */
 
-#profile {
-  border-radius: 50px;
-}
-
 /* Wrapper */
 
 @-moz-keyframes wrapper {
@@ -1226,6 +1222,7 @@ a {
 } */
 
 #profile {
-  width: 250px;
-  height: 300px;
+  width: 15%;
+  height: 15%;
+  /* border-radius: 25%; */
 }
