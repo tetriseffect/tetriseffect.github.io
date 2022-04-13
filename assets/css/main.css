@@ -1148,8 +1148,8 @@ a {
   /* BG */
 
   #profile {
-    width: 356px;
-    height: 356px;
+    width: 200px;
+    height: 200px;
   }
 
   @-moz-keyframes bg {
@@ -1227,10 +1227,10 @@ a {
     padding: 0 1em;
   }
 
-  #profile {
+  /* #profile {
     width: 156px;
     height: 156px;
-  }
+  } */
 }
 
 /* @media screen and (max-width: 1000px) {
