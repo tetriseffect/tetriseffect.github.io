@@ -327,8 +327,8 @@ p {
   transform: translate3d(0, 0, 0);
   /* Set your background with this */
 
-  background: #348cb2 url("images/aa.jpg") bottom left;
-  /* background-repeat: repeat-x; */
+  background: #348cb2 url("images/bg.jpg") bottom left;
+  background-repeat: repeat-x;
   height: 100%;
   left: 0;
   opacity: 1;
@@ -406,8 +406,8 @@ p {
 }
 
 /* Overlay */
-/* 
-@-moz-keyframes overlay {
+
+/* @-moz-keyframes overlay {
   0% {
     opacity: 0;
   }
@@ -445,9 +445,9 @@ p {
   100% {
     opacity: 1;
   }
-}
+} */
 
-#overlay {
+/* #overlay {
   -moz-animation: overlay 1.5s 1.5s forwards;
   -webkit-animation: overlay 1.5s 1.5s forwards;
   -ms-animation: overlay 1.5s 1.5s forwards;
