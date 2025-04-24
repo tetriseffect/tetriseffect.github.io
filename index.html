@@ -76,31 +76,34 @@
           </nav>
         </header>
 
-        <!-- Footer -->
-        <footer id="footer">
-          <span class="copyright"
-            >&copy; Armon Hamidi <span id="year"></span | BG:
-            <a href="https://unsplash.com/photos/aYz6jx7T7Kk" target="_blank"
-              >T. Coleman</a
-            ></span
-          >
-        </footer>
-      <script>
+<!-- Footer -->
+<footer id="footer">
+  <span class="copyright">
+    &copy; Armon Hamidi <span id="year"></span> | BG:
+    <a href="https://unsplash.com/photos/aYz6jx7T7Kk" target="_blank">T. Coleman</a>
+  </span>
+</footer>
+</div>
+</div>
+
+<!-- Existing script -->
+<script>
+  window.onload = function () {
+    document.body.classList.remove("is-preload");
+  };
+  window.ontouchmove = function () {
+    return false;
+  };
+  window.onorientationchange = function () {
+    document.body.scrollTop = 0;
+  };
+</script>
+
+<!-- New script to update the year -->
+<script>
   document.getElementById("year").textContent = new Date().getFullYear();
 </script>
-      </div>
-    </div>
-    <script>
-      window.onload = function () {
-        document.body.classList.remove("is-preload");
-      };
-      window.ontouchmove = function () {
-        return false;
-      };
-      window.onorientationchange = function () {
-        document.body.scrollTop = 0;
-      };
-    </script>
+
 
     <!-- userway widget/  -->
     <script>
