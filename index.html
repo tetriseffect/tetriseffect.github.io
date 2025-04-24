@@ -79,12 +79,15 @@
         <!-- Footer -->
         <footer id="footer">
           <span class="copyright"
-            >&copy; Armon Hamidi 2024 | BG:
+            >&copy; Armon Hamidi <span id="year"></span | BG:
             <a href="https://unsplash.com/photos/aYz6jx7T7Kk" target="_blank"
               >T. Coleman</a
             ></span
           >
         </footer>
+      <script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
       </div>
     </div>
     <script>
